@@ -11,6 +11,9 @@ https://jupyter.org/install
 
 The repository is organized by figure, with each folder corresponding to a figure in the manuscript and the analysis pipeline used to generate it.
 
+> **Note on motif orientation:**  
+> For clarity in the manuscript, motifs were shown in reverse complement format (e.g., `NNNNNNN TCGA GTAAACA`) to aid biological interpretation. However, all analyses in this repository were performed on the original orientation present in the oligo (`TGTTTAC TCGA NNNNNNN`).
+
 ### `Figure1` – Paired-End Reads: Trimming, Motif Enrichment, and Visualization
 
 This notebook processes paired-end PD-seq reads. It includes:
