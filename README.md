@@ -31,19 +31,19 @@ This notebook handles single-end read processing, including:
 - Correction for theoretical sequence input bias
 - Visualization of FoxP3 vs FoxP1 pull-down enrichment using heatmaps
 
-### `Figure3` – Motif Discovery in Genomic Peaks and Gap Analysis
+### `Figure3` – Motif Discovery in Genomic Peaks
 
 This notebook scans genomic peaks for candidate motifs. It performs:
 - Motif searches in FoxP3-bound peak regions
 - Enrichment calculations using the exact binomial test
-- Motif pair gap analysis to detect enriched spatial arrangements
+- Filtering motif pairs based on TnG presence
 
-### `Figure4` – Identifying Valid TnG Repeats in H-T and T-H Motif Pairs
+### `Figure4` – Gap Analysis and Differential Gene Expression
 
 This notebook investigates which head-to-tail (H-T) and tail-to-head (T-H) motif pairs represent true TnG repeats. It includes:
-- Sequence verification for repeat identity
-- Filtering motif pairs based on TnG presence
-- Classification of validated TnG motif combinations
+- Motif pair gap analysis to detect enriched spatial arrangements
+- Motif density analysis based on distance to gene
+- Percentage of genes explained by motif stratified by p-value
 
 ### `Figure5` – Peak-Level Comparisons of H-H Motifs and TnG Repeats
 
